@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header {
+	display: flex;
+	justify-content:space-between;
+	margin-top: 1%;
+	align-items:center;
+	}
+	
+	#upperHalf{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#leftSide{
+		display:flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	#tagLine{
+		font-size:75px;
+		text-align:center;
+	}
+
+	#start {
+		text-align: center;
+	}
+
+	#topThird {
+		display:flex;
+	}
+
+	#bottomThird{
+		display:flex;
+		justify-content: space-between;
+	}
